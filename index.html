@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SMART STUDENT MANAGEMENT SYSTEM</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        .logo {
+            width: 50px;
+            height: auto;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        /* Background */
+        .bg {
+            background-image: url("rgukt.png");
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        /* Right Menu */
+        .right {
+            position: fixed;
+            top: 80px;
+            right: 0;
+            width: 180px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            height: calc(100vh - 80px);
+        }
+
+        .right button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            background-color: #1e90ff;
+            color: white;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .right button:hover {
+            background-color: #0b5ed7;
+        }
+
+        /* Content */
+        .content {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            max-width: 800px;
+            margin: 40px auto;
+            border-radius: 8px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="logo.png" class="logo">
+        <h1>SMART STUDENT MANAGEMENT SYSTEM</h1>
+    </header>
+
+    <!-- Background Section -->
+    <div class="bg">
+
+        <!-- Right Menu -->
+        <div class="right">
+            <button>About</button>
+            <button>Login</button>
+            <button>Profile</button>
+            <button>Logout</button>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <h2>About</h2>
+            <p>
+                The Smart Student Management System helps in managing student
+                information efficiently. It provides easy access to student
+                data, profiles, and academic details in a structured way.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>This is my website</p>
+    </footer>
+
+</body>
+</html>
