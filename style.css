@@ -135,3 +135,30 @@ body {
   font-size: 18px;
   font-weight: 600;
 }
+.images {
+  display : flex;
+  justify-content : center;
+  gap : 30px;
+}
+.images img {
+  flex :1 ;
+  width :25%;
+  border-radius : 15px;
+  object-fit: cover;
+  border: #333;
+}
+.images img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.about_project {
+  padding: 60px 100px;
+  font-size: 20px;
+  line-height: 1.6;
+  color: white;
+  background-color: #030217;
+  border: 2px solid #333;
+  width: fit-content;
+  margin:20px;
+  border-radius: 10px;
+}
